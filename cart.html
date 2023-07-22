@@ -23,7 +23,10 @@
                     <div class="cart-price">₹ 500</div>
                     <input type="number" class="cart-quantity" />
                 </div>
-                <i class="bx bx-trash cart-remove"></i>
+                <i class="bx bx-trash cart-remove">
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
+                </i>
             </div>
     </div>
     <div class="">
@@ -38,5 +41,7 @@
     <i class="bx bx-x-circle" id="close-cart"></i>
     </div>
      <div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/script.js"></script>
 </body>
 </html>
